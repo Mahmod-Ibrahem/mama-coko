@@ -9,7 +9,7 @@
 @section('content')
     <!-- CONTENT START -->
     @include('layout.header', [
-        'title' => 'Egypt Tour Packages | Egypt Excursions | Egypt Sightseeing Tours',
+        'title' => 'Egypt Tour Packages | Egypt Sightseeing Tours',
         'breadcrumb' => 'Tour Packages',
         'image' => 'Images/tour-packages-bg.png',
     ])

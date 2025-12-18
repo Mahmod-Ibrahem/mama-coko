@@ -8,10 +8,10 @@
     @apply py-2 lg:px-2 relative lg:inline-block block text-xl font-medium text-[#FFAA0D] md:text-white hover:text-[#FFAA0D]
   }
     .hero_section{
-        @apply mx-auto relative table w-full items-center py-20 md:py-56 bg-center bg-no-repeat bg-cover
+        @apply mx-auto relative table w-full items-center py-20 md:py-56 bg-center bg-no-repeat bg-cover h-[50vh] md:h-full
     }
     .backgroundImageHeader {
-        @apply text-2xl md:text-5xl leading-normal tracking-wider font-bold text-[#FFAA0D]
+        @apply text-2xl md:text-5xl leading-normal tracking-wider font-bold text-[#FFAA0D] z-50 text-center
     }
 }
 @layer theme {

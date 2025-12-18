@@ -1,12 +1,11 @@
 <section class="hero_section" style="background-image: url('{{asset($image)}}')">
     <div class="absolute inset-0 bg-gradient-to-b from-slate-900/60 via-slate-900/80 to-slate-900"></div>
-    <div class="container relative">
-        <div class="grid grid-cols-1 py-10 text-center">
-            <h3 class="backgroundImageHeader">
-                {{ $title }}
-            </h3>
-        </div><!--end grid-->
-    </div><!--end container-->
+    <div class="w-full h-full inline-flex items-center justify-center">
+        <h3 class="backgroundImageHeader">
+            {{ $title }}
+        </h3>
+    </div>
+
 
     <div class="absolute text-center z-10 bottom-5 start-0 end-0 mx-3">
         <ul class="tracking-[0.5px] mb-0 inline-block">

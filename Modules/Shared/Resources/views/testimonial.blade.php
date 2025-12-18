@@ -1,5 +1,5 @@
 <!--TESTIMONIAL START-->
-<div class="pb-5 md:pt-12.5 bg-center bg-no-repeat bg-lightturquoise relative"
+<div class="pb-5 pt-6 md:pt-12.5 bg-center bg-no-repeat bg-lightturquoise relative"
     style="background-image: url(assets/images/Map.png);">
     <div class="container">
 
