@@ -1,7 +1,7 @@
 <section class="hero_section" style="background-image: url('{{asset($image)}}')">
     <div class="absolute inset-0 bg-gradient-to-b from-slate-900/60 via-slate-900/80 to-slate-900"></div>
     <div class="container relative">
-        <div class="grid grid-cols-1 pb-8 text-center">
+        <div class="grid grid-cols-1 py-10 text-center">
             <h3 class="backgroundImageHeader">
                 {{ $title }}
             </h3>

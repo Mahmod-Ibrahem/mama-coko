@@ -1,12 +1,12 @@
 <!-- HEADER START -->
-<header class="absolute top-0 left-0 w-full py-12 z-50">
+<header class="absolute top-0 left-0 w-full pt-3 md:py-12 z-50">
     <div class="main-bar-wraper">
         <div
             class="flex items-center justify-between relative w-full rounded-2xl 2xl:min-h-30 min-h-20 2xxl:ps-8.75 px-4.5 2xxl:pe-13.75 duration-500">
             <div class="flex items-center z-9 h-20 lg:w-44 w-30 4xl:absolute 4xl:left-1/2 4xl:-translate-x-1/2">
                 <a href="index.html" class="table-cell align-middle">
                     <img src="{{ asset('Images/logo.jpg') }}" alt="logo"
-                        class="object-contain duration-500 h-19 md:h-40 ">
+                        class="object-contain duration-500 h-20 md:h-40 ">
                 </a>
             </div>
             <button

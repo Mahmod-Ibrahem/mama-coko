@@ -11,7 +11,7 @@
         @apply mx-auto relative table w-full items-center py-20 md:py-56 bg-center bg-no-repeat bg-cover
     }
     .backgroundImageHeader {
-        @apply text-xl md:text-5xl leading-normal tracking-wider font-bold text-[#FFAA0D]
+        @apply text-2xl md:text-5xl leading-normal tracking-wider font-bold text-[#FFAA0D]
     }
 }
 @layer theme {

@@ -4,7 +4,7 @@
     <div class="absolute inset-0 bg-black/35"></div>
     <div class="relative z-2 h-full">
         <div class="flex flex-col items-center justify-center  h-full w-full text-center">
-            <span class="text-5xl md:text-6xl leading-17.5 text-citrusyellow block mb-5 font-display">Explore
+            <span class="text-5xl md:text-6xl leading-17.5 text-citrusyellow block md:mb-5 font-display">Explore
                 The</span>
             <div class="trv-banner-3-text-mid">
                 <h1
