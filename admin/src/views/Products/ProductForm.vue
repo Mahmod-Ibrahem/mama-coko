@@ -44,7 +44,7 @@
                                     Tour Group <span class="text-red-500">*</span>
                                 </label>
                                 <Select v-model="product.group" :options="groups" optionLabel="label"
-                                    optionValue="value" placeholder="Select Tour Group" class="w-full" editable />
+                                    optionValue="value" placeholder="Select Tour Group" class="w-full" />
                                 <p v-if="errors.group?.[0]" class="mt-1.5 text-red-500 text-sm flex items-center gap-1">
                                     <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"

@@ -23,6 +23,8 @@ import Settings from "../views/Setting/Settings.vue";
 import SettingForm from "../views/Setting/SettingForm.vue";
 import Gallery from "../views/Gallery/Gallery.vue";
 import GalleryForm from "../views/Gallery/GalleryForm.vue";
+import Bookings from "../views/Bookings/Bookings.vue";
+import BookingForm from "../views/Bookings/BookingForm.vue";
 
 const routes = [
     {
@@ -193,7 +195,18 @@ const routes = [
                 path:'galleries/:id',
                 name:'app.galleries.edit',
                 component:GalleryForm
-            }
+            }        
+            ,
+            {
+                path: 'bookings',
+                name: 'app.bookings',
+                component: Bookings
+            },
+            {
+                path: 'bookings/:id',
+                name: 'app.bookings.edit',
+                component: BookingForm
+            },
         ],
     },
 
